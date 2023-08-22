@@ -1,0 +1,208 @@
+[27-Jun-2019 15:13:25 Asia/Kolkata] PHP Notice:  Undefined variable: SearchValidator in /home/addedschools/public_html/lucknowips/admin/transport_management/student_vehicle_report.php on line 151
+[27-Jun-2019 15:13:25 Asia/Kolkata] PHP Fatal error:  Call to a member function AttachTextError() on null in /home/addedschools/public_html/lucknowips/admin/transport_management/student_vehicle_report.php on line 151
+[27-Jun-2019 15:55:53 Asia/Kolkata] PHP Notice:  Undefined variable: SearchValidator in /home/addedschools/public_html/lucknowips/admin/transport_management/student_vehicle_report.php on line 151
+[27-Jun-2019 15:55:53 Asia/Kolkata] PHP Fatal error:  Call to a member function AttachTextError() on null in /home/addedschools/public_html/lucknowips/admin/transport_management/student_vehicle_report.php on line 151
+[02-Jul-2019 15:56:23 Asia/Kolkata] PHP Notice:  Undefined index: VehicleID in /home/addedschools/public_html/lucknowips/admin/transport_management/vehicle_drivers_report.php on line 386
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT * FROM global_settings LIMIT 1;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT accountExpiryDate, hasLoginTimeLimit, roleID, loginStartTime, loginEndTime FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT * FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = 0 OR moduleID IN (SELECT moduleID FROM sa_modules WHERE isDefault = 1))
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT * FROM atm_routes WHERE isActive = 1;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT * FROM atm_vehicle WHERE isActive = 1;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT classID, className FROM asa_classes 
+			                                    WHERE isActive = 1
+			                                    ORDER BY priority;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT sectionMasterID, sectionName FROM asa_section_master WHERE isActive = 1;<br>
+[20-Aug-2019 10:44:25 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = '9')
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=SELECT * FROM global_settings LIMIT 1;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=SELECT accountExpiryDate, hasLoginTimeLimit, roleID, loginStartTime, loginEndTime FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=SELECT * FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = 0 OR moduleID IN (SELECT moduleID FROM sa_modules WHERE isDefault = 1))
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=SELECT * FROM atm_routes WHERE isActive = 1;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=SELECT * FROM atm_area_master WHERE isActive = 1;<br>
+[20-Aug-2019 10:44:55 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = '9')
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT * FROM global_settings LIMIT 1;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT accountExpiryDate, hasLoginTimeLimit, roleID, loginStartTime, loginEndTime FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT * FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = 0 OR moduleID IN (SELECT moduleID FROM sa_modules WHERE isDefault = 1))
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT * FROM atm_routes WHERE isActive = 1;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT * FROM atm_area_master WHERE isActive = 1;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT COUNT(*) AS totalRecords 
+													FROM atm_area_wise_fee aawf
+													INNER JOIN atm_routes ar ON ar.routeID = aawf.routeID 
+													INNER JOIN atm_area_master aam ON aam.areaID = aawf.areaID
+													INNER JOIN users u ON aawf.createUserID = u.userID 
+													;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT aawf.*, ar.routeNumber, ar.routeName, aam.areaName, aawf.amount, u.userName AS createUserName
+												FROM atm_area_wise_fee aawf
+												INNER JOIN atm_routes ar ON ar.routeID = aawf.routeID
+												INNER JOIN atm_area_master aam ON aam.areaID = aawf.areaID
+												INNER JOIN users u ON aawf.createUserID = u.userID 
+												 
+												ORDER BY ar.routeName LIMIT 0, 10;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = '9')
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:45:46 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT * FROM global_settings LIMIT 1;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT accountExpiryDate, hasLoginTimeLimit, roleID, loginStartTime, loginEndTime FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT * FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = 0 OR moduleID IN (SELECT moduleID FROM sa_modules WHERE isDefault = 1))
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT * FROM atm_routes WHERE isActive = 1;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT * FROM atm_vehicle WHERE isActive = 1;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT classID, className FROM asa_classes 
+			                                    WHERE isActive = 1
+			                                    ORDER BY priority;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT sectionMasterID, sectionName FROM asa_section_master WHERE isActive = 1;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT aawf.areaWiseFeeID, aam.areaName
+												FROM atm_area_wise_fee aawf					     
+												INNER JOIN atm_area_master aam ON aam.areaID = aawf.areaID
+												WHERE aawf.routeID = '15' ;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT acs.classSectionID, acs.priority, asm.sectionName 
+												FROM asa_class_sections acs 
+												INNER JOIN asa_section_master asm ON acs.sectionMasterID = asm.sectionMasterID 
+												WHERE acs.classID = '6';<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT ast.studentID, ast.parentID, ast.rollNumber, asd.firstName, asd.lastName, asd.mobileNumber, asd.studentPhoto, 
+												apd.fatherMobileNumber, apd.motherMobileNumber, asd.mobileNumber 
+												FROM asa_students ast 
+												INNER JOIN asa_student_details asd On asd.studentID = ast.studentID 
+												LEFT JOIN asa_parent_details apd ON apd.parentID = ast.parentID 
+												WHERE ast.classSectionID = '6' AND ast.status = 'Active' 
+												ORDER BY ast.rollNumber, asd.firstName;<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO atm_student_vehicle (areaWiseFeeID, vehicleID, StudentID, isActive, createUserID, createDate)
+												VALUES ('61', '15', '94', '1', '1000001', Now());<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT feeHeadID FROM afm_fee_heads WHERE feeHead = 'Transport';<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT feeGroupID FROM afm_fee_group_assigned_records WHERE recordID = '94';<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT feeStructureID FROM afm_fee_structure 
+																	WHERE classID = '6' AND feeGroupID = '1' AND academicYearID = (SELECT academicYearID FROM asa_academic_years WHERE isCurrentYear = 1);<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT amount FROM atm_area_wise_fee  
+																WHERE areaWiseFeeID = '61';<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=SELECT feeStructureDetailID FROM afm_fee_structure_details WHERE feeStructureID = '6' AND feeHeadID = '6';<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('425', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('426', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('427', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('428', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('429', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('430', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('431', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('432', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('433', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('434', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('435', '94', '1000.00');<br>
+[20-Aug-2019 10:47:14 Asia/Kolkata] $Query=INSERT INTO afm_student_fee_structure (feeStructureDetailID, StudentID, amountPayable)
+																		VALUES ('436', '94', '1000.00');<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT * FROM global_settings LIMIT 1;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT accountExpiryDate, hasLoginTimeLimit, roleID, loginStartTime, loginEndTime FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT * FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = 0 OR moduleID IN (SELECT moduleID FROM sa_modules WHERE isDefault = 1))
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT * FROM atm_routes WHERE isActive = 1;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT sectionMasterID, sectionName FROM asa_section_master WHERE isActive = 1;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT classID, className FROM asa_classes 
+			                                    WHERE isActive = 1
+			                                    ORDER BY priority;<br>
+[20-Aug-2019 10:47:15 Asia/Kolkata] $Query=SELECT sm.submenuID, sm.submenuName, sm.linkedFilename, sm.isNew, m.menuName
+													FROM submenus sm 
+													INNER JOIN menus m ON sm.menuID = m.menuID
+													WHERE sm.taskID IN (SELECT taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0)
+													AND m.isActive AND sm.isActive AND sm.taskID IN (SELECT taskID FROM tasks WHERE moduleID = '9')
+													ORDER BY m.menuPriority, sm.submenuPriority;<br>
+[06-Sep-2019 13:23:25 Asia/Kolkata] PHP Notice:  Undefined index: VehicleID in /home/addedschools/public_html/lucknowips/admin/transport_management/vehicle_drivers_report.php on line 386
+[20-Sep-2019 00:02:26 Asia/Kolkata] PHP Notice:  Undefined index: VehicleID in /home/addedschools/public_html/lucknowips/admin/transport_management/vehicle_drivers_report.php on line 386
+[11-Dec-2019 10:41:43 Asia/Kolkata] PHP Notice:  Undefined index: VehicleID in /home/addedschools/public_html/lucknowips/admin/transport_management/vehicle_drivers_report.php on line 386
+[15-Dec-2019 11:51:34 Asia/Kolkata] PHP Notice:  Undefined index: VehicleID in /home/addedschools/public_html/lucknowips/admin/transport_management/vehicle_drivers_report.php on line 386
+[17-Dec-2019 10:20:44 Asia/Kolkata] PHP Notice:  Undefined index: VehicleID in /home/addedschools/public_html/lucknowips/admin/transport_management/vehicle_drivers_report.php on line 386
+[06-Jan-2020 23:00:06 Asia/Kolkata] PHP Notice:  Undefined index: VehicleID in /home/addedschools/public_html/lucknowips/admin/transport_management/vehicle_drivers_report.php on line 386
+[16-Jan-2020 20:12:42 Asia/Kolkata] PHP Notice:  Undefined index: VehicleID in /home/addedschools/public_html/lucknowips/admin/transport_management/vehicle_drivers_report.php on line 386
+[01-Mar-2020 12:19:42 Asia/Kolkata] DEBUG: ApplicationDBException at StudentVehicle::RecordExists(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/transport_management/class.student_vehicle.php(227): DBConnect_Statement->Execute(458, 2)
+#1 /home/addedschools/public_html/lucknowips/admin/transport_management/assign_student_vehicle.php(168): StudentVehicle->RecordExists()
+#2 {main}
+[01-Mar-2020 12:25:36 Asia/Kolkata] DEBUG: ApplicationDBException at StudentVehicle::RecordExists(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/transport_management/class.student_vehicle.php(227): DBConnect_Statement->Execute(458, 2)
+#1 /home/addedschools/public_html/lucknowips/admin/transport_management/assign_student_vehicle.php(168): StudentVehicle->RecordExists()
+#2 {main}
+[01-Mar-2020 12:32:34 Asia/Kolkata] DEBUG: ApplicationDBException at StudentVehicle::RecordExists(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/transport_management/class.student_vehicle.php(227): DBConnect_Statement->Execute(458, 2)
+#1 /home/addedschools/public_html/lucknowips/admin/transport_management/assign_student_vehicle.php(168): StudentVehicle->RecordExists()
+#2 {main}
+[02-Mar-2020 11:20:27 Asia/Kolkata] DEBUG: ApplicationDBException at StudentVehicle::RecordExists(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/transport_management/class.student_vehicle.php(227): DBConnect_Statement->Execute(458, 2)
+#1 /home/addedschools/public_html/lucknowips/admin/transport_management/assign_student_vehicle.php(168): StudentVehicle->RecordExists()
+#2 {main}
+[02-Mar-2020 12:09:35 Asia/Kolkata] DEBUG: ApplicationDBException at StudentVehicle::RecordExists(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/transport_management/class.student_vehicle.php(227): DBConnect_Statement->Execute(458, 2)
+#1 /home/addedschools/public_html/lucknowips/admin/transport_management/assign_student_vehicle.php(168): StudentVehicle->RecordExists()
+#2 {main}

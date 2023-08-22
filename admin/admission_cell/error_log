@@ -1,0 +1,153 @@
+[03-Jan-2020 13:11:54 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[03-Jan-2020 13:11:54 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Jan-2020 10:09:31 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Jan-2020 10:09:31 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Jan-2020 10:10:02 Asia/Kolkata] PHP Warning:  Missing argument 2 for City::GetAllCities(), called in /home/addedschools/public_html/lucknowips/admin/admission_cell/edit_enquiry.php on line 122 and defined in /home/addedschools/public_html/lucknowips/classes/school_administration/class.cities.php on line 111
+[06-Jan-2020 10:10:02 Asia/Kolkata] PHP Notice:  Undefined variable: DistrictID in /home/addedschools/public_html/lucknowips/classes/school_administration/class.cities.php on line 122
+[06-Jan-2020 10:13:52 Asia/Kolkata] PHP Warning:  Missing argument 2 for City::GetAllCities(), called in /home/addedschools/public_html/lucknowips/admin/admission_cell/edit_enquiry.php on line 122 and defined in /home/addedschools/public_html/lucknowips/classes/school_administration/class.cities.php on line 111
+[06-Jan-2020 10:13:52 Asia/Kolkata] PHP Notice:  Undefined variable: DistrictID in /home/addedschools/public_html/lucknowips/classes/school_administration/class.cities.php on line 122
+[06-Jan-2020 10:16:02 Asia/Kolkata] PHP Warning:  Missing argument 2 for City::GetAllCities(), called in /home/addedschools/public_html/lucknowips/admin/admission_cell/edit_enquiry.php on line 122 and defined in /home/addedschools/public_html/lucknowips/classes/school_administration/class.cities.php on line 111
+[06-Jan-2020 10:16:02 Asia/Kolkata] PHP Notice:  Undefined variable: DistrictID in /home/addedschools/public_html/lucknowips/classes/school_administration/class.cities.php on line 122
+[06-Jan-2020 10:53:40 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('3')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(145): Enquiry->CheckDependencies()
+#2 {main}
+[06-Jan-2020 11:14:51 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Jan-2020 11:14:51 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Jan-2020 11:16:59 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[08-Jan-2020 12:55:04 Asia/Kolkata] PHP Notice:  Undefined index:  in /home/addedschools/public_html/lucknowips/admin/admission_cell/add_exam_registration.php on line 265
+[08-Jan-2020 12:55:04 Asia/Kolkata] PHP Notice:  Undefined index:  in /home/addedschools/public_html/lucknowips/admin/admission_cell/add_exam_registration.php on line 271
+[08-Jan-2020 12:55:04 Asia/Kolkata] PHP Notice:  Undefined index:  in /home/addedschools/public_html/lucknowips/admin/admission_cell/add_exam_registration.php on line 275
+[08-Jan-2020 13:05:55 Asia/Kolkata] PHP Notice:  Undefined index:  in /home/addedschools/public_html/lucknowips/admin/admission_cell/add_exam_registration.php on line 265
+[08-Jan-2020 13:05:55 Asia/Kolkata] PHP Notice:  Undefined index:  in /home/addedschools/public_html/lucknowips/admin/admission_cell/add_exam_registration.php on line 271
+[08-Jan-2020 13:05:55 Asia/Kolkata] PHP Notice:  Undefined index:  in /home/addedschools/public_html/lucknowips/admin/admission_cell/add_exam_registration.php on line 275
+[15-Jan-2020 15:04:19 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[15-Jan-2020 15:04:19 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[15-Jan-2020 15:43:22 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[18-Jan-2020 14:31:37 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('4')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(145): Enquiry->CheckDependencies()
+#2 {main}
+[18-Jan-2020 15:02:41 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[24-Jan-2020 11:13:44 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('4')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(145): Enquiry->CheckDependencies()
+#2 {main}
+[24-Jan-2020 11:19:57 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[24-Jan-2020 11:19:57 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[27-Jan-2020 15:01:46 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[27-Jan-2020 15:01:46 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[28-Jan-2020 15:04:57 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[28-Jan-2020 15:10:39 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[28-Jan-2020 15:23:32 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('4')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(145): Enquiry->CheckDependencies()
+#2 {main}
+[28-Jan-2020 15:23:38 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('11')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(145): Enquiry->CheckDependencies()
+#2 {main}
+[28-Jan-2020 15:35:59 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[04-Feb-2020 13:10:32 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:10:32 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:15:22 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:15:22 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:20:22 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:20:22 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:22:34 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:22:34 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:25:05 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:25:05 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:27:33 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 13:27:33 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[04-Feb-2020 14:50:35 Asia/Kolkata] PHP Notice:  Undefined index: Genders in /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php on line 601
+[04-Feb-2020 14:50:36 Asia/Kolkata] PHP Notice:  Undefined index: Genders in /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php on line 601
+[04-Feb-2020 14:50:43 Asia/Kolkata] PHP Notice:  Undefined index: Genders in /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php on line 601
+[04-Feb-2020 14:51:00 Asia/Kolkata] PHP Notice:  Undefined index: Genders in /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php on line 601
+[04-Feb-2020 14:51:01 Asia/Kolkata] PHP Notice:  Undefined index: Genders in /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php on line 601
+[04-Feb-2020 14:51:03 Asia/Kolkata] PHP Notice:  Undefined index: Genders in /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php on line 601
+[06-Feb-2020 12:58:02 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Feb-2020 12:58:02 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Feb-2020 13:01:56 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Feb-2020 13:01:56 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[06-Feb-2020 13:08:00 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('4')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[13-Feb-2020 13:02:57 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[13-Feb-2020 13:08:37 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[13-Feb-2020 13:15:58 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[14-Feb-2020 15:21:18 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Feb-2020 15:21:18 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Feb-2020 15:22:08 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Feb-2020 15:22:08 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Feb-2020 15:23:36 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Feb-2020 15:23:36 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Feb-2020 15:24:23 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Feb-2020 15:24:23 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[18-Feb-2020 15:36:42 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[18-Feb-2020 15:36:42 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[19-Feb-2020 11:38:49 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[19-Feb-2020 11:38:49 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[19-Feb-2020 11:39:41 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[19-Feb-2020 11:39:41 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[25-Feb-2020 12:10:05 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[25-Feb-2020 13:07:51 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[27-Feb-2020 12:16:59 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[27-Feb-2020 12:19:57 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[27-Feb-2020 15:06:21 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('21')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[27-Feb-2020 16:54:49 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[27-Feb-2020 16:54:49 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[29-Feb-2020 15:02:11 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('4')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:02:15 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('11')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:02:22 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('19')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:02:26 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('22')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:02:31 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('23')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:02:39 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('18')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:02:47 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('20')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:02:51 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('24')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:02:56 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('21')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:03:07 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('25')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:03:15 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('6')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[29-Feb-2020 15:17:02 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[29-Feb-2020 15:25:33 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[29-Feb-2020 15:30:10 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[01-Mar-2020 13:58:35 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[01-Mar-2020 14:08:30 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[02-Mar-2020 11:58:42 Asia/Kolkata] DEBUG: ApplicationDBException: Enquiry::CheckDependencies(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/admission_cell/class.enquiries.php(391): DBConnect_Statement->Execute('26')
+#1 /home/addedschools/public_html/lucknowips/admin/admission_cell/enquiry_list.php(147): Enquiry->CheckDependencies()
+#2 {main}
+[02-Mar-2020 12:46:32 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[05-Mar-2020 14:18:11 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[05-Mar-2020 14:28:27 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[05-Mar-2020 14:29:59 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[06-Mar-2020 12:58:21 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[06-Mar-2020 13:00:03 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[14-Mar-2020 14:17:58 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[16-Mar-2020 15:30:58 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[16-Mar-2020 15:32:33 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[16-Mar-2020 15:34:58 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[19-Mar-2020 11:56:11 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[19-Mar-2020 12:36:31 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[19-Mar-2020 14:20:38 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[14-Apr-2020 16:29:48 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[14-Apr-2020 16:30:43 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.
+[14-Apr-2020 16:32:31 Asia/Kolkata] Criticle Error: Generated Username already exists in the records.

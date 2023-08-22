@@ -1,0 +1,10 @@
+[28-Nov-2019 14:01:35 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'arvindkumarsrivastava@added' LIMIT 1;<br>
+[28-Nov-2019 14:01:35 Asia/Kolkata] $Query=SELECT userTimeLogID FROM user_time_logs WHERE userName = 'arvindkumarsrivastava@added' ORDER BY loginDateTime DESC LIMIT 1;<br>
+[29-Nov-2019 10:12:55 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'arvindkumarsrivastava@added' LIMIT 1;<br>
+[29-Nov-2019 10:12:55 Asia/Kolkata] $Query=SELECT userTimeLogID FROM user_time_logs WHERE userName = 'arvindkumarsrivastava@added' ORDER BY loginDateTime DESC LIMIT 1;<br>
+[29-Nov-2019 10:56:02 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'arvindkumarsrivastava@added' LIMIT 1;<br>
+[29-Nov-2019 10:56:02 Asia/Kolkata] $Query=SELECT userTimeLogID FROM user_time_logs WHERE userName = 'arvindkumarsrivastava@added' ORDER BY loginDateTime DESC LIMIT 1;<br>
+[29-Nov-2019 11:21:06 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'arvindkumarsrivastava@added' LIMIT 1;<br>
+[29-Nov-2019 11:21:06 Asia/Kolkata] $Query=SELECT userTimeLogID FROM user_time_logs WHERE userName = 'arvindkumarsrivastava@added' ORDER BY loginDateTime DESC LIMIT 1;<br>
+[29-Nov-2019 11:21:33 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'mrazad6@added' LIMIT 1;<br>
+[29-Nov-2019 11:21:33 Asia/Kolkata] $Query=SELECT userTimeLogID FROM user_time_logs WHERE userName = 'mrazad6@added' ORDER BY loginDateTime DESC LIMIT 1;<br>

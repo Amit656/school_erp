@@ -1,0 +1,44 @@
+[20-Nov-2018 12:46:13 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[20-Nov-2018 12:46:13 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[20-Nov-2018 12:46:13 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[20-Nov-2018 12:46:13 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[23-Nov-2018 16:31:13 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[23-Nov-2018 16:31:13 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[23-Nov-2018 16:31:13 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[23-Nov-2018 16:31:13 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[23-Nov-2018 16:31:18 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[23-Nov-2018 16:31:18 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[23-Nov-2018 16:31:18 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[23-Nov-2018 16:31:18 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[17-Dec-2018 14:17:13 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[17-Dec-2018 14:17:13 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[17-Dec-2018 14:17:13 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[17-Dec-2018 14:17:13 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[17-Dec-2018 14:17:27 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[17-Dec-2018 14:17:27 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[17-Dec-2018 14:17:27 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[17-Dec-2018 14:17:27 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[18-Jan-2019 15:40:50 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/addedschools/public_html/demo/classes/class.db_connect.php:159) in /home/addedschools/public_html/demo/classes/class.authentication.php on line 141
+[18-Jan-2019 15:41:03 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/addedschools/public_html/demo/classes/class.db_connect.php:159) in /home/addedschools/public_html/demo/classes/class.authentication.php on line 141
+[18-Jan-2019 15:41:04 Asia/Kolkata] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/addedschools/public_html/demo/classes/class.db_connect.php:159) in /home/addedschools/public_html/demo/classes/class.authentication.php on line 141
+[28-Jan-2019 13:24:26 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:24:26 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:24:26 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:24:26 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:24:26 Asia/Kolkata] PHP Notice:  Undefined index: E in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:25:03 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:25:03 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:25:03 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:25:03 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:25:03 Asia/Kolkata] PHP Notice:  Undefined index: E in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:26:38 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:26:38 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:26:38 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:26:38 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[28-Jan-2019 13:26:38 Asia/Kolkata] PHP Notice:  Undefined index: E in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[06-Feb-2019 15:47:24 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[06-Feb-2019 15:47:24 Asia/Kolkata] PHP Notice:  Undefined index: B in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[06-Feb-2019 15:47:24 Asia/Kolkata] PHP Notice:  Undefined index: C in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[06-Feb-2019 15:47:24 Asia/Kolkata] PHP Notice:  Undefined index: D in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[06-Feb-2019 15:47:24 Asia/Kolkata] PHP Notice:  Undefined index: E in /home/addedschools/public_html/demo/admin/hostel_management/student_hostel_allotment.php on line 309
+[26-Dec-2019 12:43:22 Asia/Kolkata] PHP Notice:  Undefined index: A in /home/addedschools/public_html/lucknowips/admin/hostel_management/student_hostel_allotment.php on line 309

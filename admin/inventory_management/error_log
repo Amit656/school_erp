@@ -1,0 +1,299 @@
+[12-Mar-2020 18:01:44 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[12-Mar-2020 18:01:44 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[12-Mar-2020 18:01:51 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[12-Mar-2020 18:01:51 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[12-Mar-2020 18:02:10 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[12-Mar-2020 18:02:10 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[12-Mar-2020 18:35:45 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[12-Mar-2020 18:37:04 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[12-Mar-2020 18:37:04 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[12-Mar-2020 18:37:06 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[12-Mar-2020 18:48:42 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[12-Mar-2020 18:48:42 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[12-Mar-2020 18:49:04 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[12-Mar-2020 18:49:04 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[12-Mar-2020 18:50:12 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[12-Mar-2020 18:50:12 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[12-Mar-2020 18:51:44 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[12-Mar-2020 18:51:44 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[12-Mar-2020 18:55:31 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[12-Mar-2020 18:55:31 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[12-Mar-2020 18:55:50 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[12-Mar-2020 18:55:50 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 11:00:25 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 11:00:25 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 11:05:25 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 11:05:25 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 11:10:25 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 11:10:25 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 11:10:26 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 11:10:26 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 11:10:26 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 11:10:26 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 11:23:57 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 11:23:57 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 11:24:37 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 11:24:37 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:15:01 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:15:01 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:16:35 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:16:35 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:18:14 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:18:14 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:18:26 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:18:26 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:19:05 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:19:05 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:19:08 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:19:08 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:19:16 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:19:16 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:19:46 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:19:46 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:19:52 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:19:52 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:22:54 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[13-Mar-2020 12:22:54 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:23:40 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:23:40 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 12:23:42 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 12:23:42 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 14:41:15 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 14:41:15 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 14:55:42 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 14:55:42 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 16:41:37 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 16:41:37 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[13-Mar-2020 16:59:29 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[13-Mar-2020 16:59:29 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 09:31:56 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[14-Mar-2020 09:57:09 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[14-Mar-2020 10:40:57 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[14-Mar-2020 10:41:09 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[14-Mar-2020 10:41:20 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[14-Mar-2020 10:41:33 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[14-Mar-2020 10:45:55 Asia/Kolkata] PHP Notice:  Undefined offset: 1 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Mar-2020 10:45:55 Asia/Kolkata] PHP Notice:  Undefined offset: 2 in /home/addedschools/public_html/lucknowips/classes/class.date_processing.php on line 26
+[14-Mar-2020 11:11:36 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[14-Mar-2020 11:11:36 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 11:11:56 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[14-Mar-2020 11:11:56 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 11:17:53 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[14-Mar-2020 11:17:53 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 11:23:19 Asia/Kolkata] PHP Notice:  Undefined variable: NewRecordValidator in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[14-Mar-2020 11:23:19 Asia/Kolkata] PHP Fatal error:  Call to a member function ValidateStrings() on null in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[14-Mar-2020 11:23:21 Asia/Kolkata] PHP Notice:  Undefined variable: NewRecordValidator in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[14-Mar-2020 11:23:21 Asia/Kolkata] PHP Fatal error:  Call to a member function ValidateStrings() on null in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[14-Mar-2020 11:24:07 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('396', true, Array)
+#2 {main}
+[14-Mar-2020 11:24:07 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('396', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 11:32:20 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('397', true, Array)
+#2 {main}
+[14-Mar-2020 11:32:20 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('397', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 15:16:47 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('397', true, Array)
+#2 {main}
+[14-Mar-2020 15:16:47 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('397', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 15:54:59 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[14-Mar-2020 15:54:59 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 16:03:08 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[14-Mar-2020 16:03:08 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 16:03:14 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[14-Mar-2020 16:03:14 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 16:03:18 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[14-Mar-2020 16:03:18 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 16:03:28 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[14-Mar-2020 16:03:28 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 16:04:49 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[14-Mar-2020 16:04:49 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[14-Mar-2020 16:05:08 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(160): StockIssue::GetAllTransaction('1', true, Array)
+#2 {main}
+[14-Mar-2020 16:05:08 Asia/Kolkata] DEBUG: ApplicationDBException::StockIssue::GetAllTransaction(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.stock_issue.php(482): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(188): StockIssue::GetAllTransaction('1', false, Array, 0, 1)
+#2 {main}
+[15-Mar-2020 22:27:04 Asia/Kolkata] PHP Notice:  Undefined variable: NewRecordValidator in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[15-Mar-2020 22:27:04 Asia/Kolkata] PHP Fatal error:  Call to a member function ValidateStrings() on null in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[15-Mar-2020 22:27:06 Asia/Kolkata] PHP Notice:  Undefined variable: NewRecordValidator in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[15-Mar-2020 22:27:06 Asia/Kolkata] PHP Fatal error:  Call to a member function ValidateStrings() on null in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[15-Mar-2020 22:28:03 Asia/Kolkata] PHP Notice:  Undefined variable: NewRecordValidator in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[15-Mar-2020 22:28:03 Asia/Kolkata] PHP Fatal error:  Call to a member function ValidateStrings() on null in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[15-Mar-2020 22:28:05 Asia/Kolkata] PHP Notice:  Undefined variable: NewRecordValidator in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[15-Mar-2020 22:28:05 Asia/Kolkata] PHP Fatal error:  Call to a member function ValidateStrings() on null in /home/addedschools/public_html/lucknowips/admin/inventory_management/stock_issues_list.php on line 254
+[18-Mar-2020 19:12:24 Asia/Kolkata] DEBUG: ApplicationDBException at Product::GetAllProducts(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/inventory_management/class.products.php(345): DBConnect_Statement->FetchRow()
+#1 /home/addedschools/public_html/lucknowips/admin/inventory_management/inventory_report.php(158): Product::GetAllProducts('0', false, Array, 0, '0')
+#2 {main}
+[19-Mar-2020 17:03:32 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157
+[19-Mar-2020 17:27:00 Asia/Kolkata] PHP Notice:  Undefined index: drdProductType in /home/addedschools/public_html/lucknowips/admin/inventory_management/products_list.php on line 157

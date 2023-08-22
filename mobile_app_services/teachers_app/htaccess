@@ -1,0 +1,3 @@
+RewriteEngine On
+
+RewriteRule (.*) get_request.php?file_name=%{REQUEST_URI}

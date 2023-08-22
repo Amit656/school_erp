@@ -1,0 +1,13 @@
+<?php
+// Error Messages
+define('INVALID_USERNAME_PASSWORD', 101);       // NOT BEING USED
+define('UNKNOWN_ERROR', 102);
+define('ERROR_FUTURE_DATE_SUPPLIED', 103);
+define('NOT_A_WORKING_DAY', 104);
+define('CHAT_NOT_ENABLED', 105);
+
+// Error Successful
+define('LOGIN_SUCCESSFUL', 10001);
+define('SAVED_SUCCESSFULLY', 10002);
+define('MAX_UPLOADED_FILE_SIZE_NEW', 5242880);
+?>

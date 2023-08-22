@@ -1,0 +1,212 @@
+[29-Nov-2019 11:58:13 Asia/Kolkata] $Query=SELECT * FROM global_settings LIMIT 1;<br>
+[29-Nov-2019 11:58:13 Asia/Kolkata] $Query=SELECT accountExpiryDate, hasLoginTimeLimit, roleID, loginStartTime, loginEndTime FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[29-Nov-2019 11:58:13 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'admin' LIMIT 1;<br>
+[29-Nov-2019 11:58:13 Asia/Kolkata] $Query=SELECT * FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[29-Nov-2019 11:58:13 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[29-Nov-2019 11:58:13 Asia/Kolkata] $Query=SELECT * FROM aem_exam_types WHERE isActive = 1;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT * FROM global_settings LIMIT 1;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT accountExpiryDate, hasLoginTimeLimit, roleID, loginStartTime, loginEndTime FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=UPDATE users SET lastLogoutDate = NOW() WHERE userName = 'admin' LIMIT 1;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT * FROM users WHERE userName = 'admin' LIMIT 1;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT userTaskID, taskID FROM user_tasks WHERE userID = '1000001' AND isRevoked = 0;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT * FROM aem_exam_types WHERE isActive = 1;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), acs.classID, ac.className 
+												FROM aem_exams ae 
+												INNER JOIN asa_class_sections acs ON ae.classSectionID = acs.classSectionID 
+												INNER JOIN asa_classes ac ON acs.classID = ac.classID 
+												WHERE ae.examTypeID = '1' ORDER BY ac.classID;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT acs.classSectionID, asm.sectionName
+												FROM aem_exams ae 
+												INNER JOIN asa_class_sections acs ON ae.classSectionID = acs.classSectionID 
+												INNER JOIN asa_section_master asm ON acs.sectionMasterID = asm.sectionMasterID 
+												WHERE ae.examTypeID = '1' AND acs.classID = '4' GROUP BY asm.sectionMasterID, ae.examTypeID;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSubjectID), asm.subject, ae.maximumMarks, 
+													ae.examID, acs.subjectMarksType
+													FROM aem_exams ae
+													INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+													INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+													LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+													WHERE ae.examTypeID = '1' AND ae.classSectionID = '4' ORDER BY asm.subject;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT ast.studentID, ast.parentID, ast.rollNumber, asd.firstName, asd.lastName, asd.mobileNumber, asd.studentPhoto, 
+												apd.fatherMobileNumber, apd.motherMobileNumber, asd.mobileNumber 
+												FROM asa_students ast 
+												INNER JOIN asa_student_details asd On asd.studentID = ast.studentID 
+												LEFT JOIN asa_parent_details apd ON apd.parentID = ast.parentID 
+												WHERE ast.classSectionID = '4' AND ast.status = 'Active' 
+												ORDER BY ast.rollNumber, asd.firstName;<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '3';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '2';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '424';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '5';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '20';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '6';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '4';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '14';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '19';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '7';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '10';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '412';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '12';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '8';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '9';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '16';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '11';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '17';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '410';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '15';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '18';<br>
+[29-Nov-2019 11:58:21 Asia/Kolkata] $Query=SELECT DISTINCT(ae.classSectionID), ae.examID, ae.maximumMarks, ae.classSubjectID, 
+												asm.subject, asem.marks, asem.gradeID, asem.status, acs.subjectMarksType, ag.grade
+												FROM aem_exams ae
+												INNER JOIN asa_class_subjects acs ON ae.classSubjectID = acs.classSubjectID
+												INNER JOIN asa_subject_master asm ON acs.subjectID = asm.subjectID
+												LEFT JOIN aem_student_exam_marks asem ON ae.examID = asem.examID
+												LEFT JOIN asa_grades ag ON asem.gradeID = ag.gradeID
+												WHERE ae.examTypeID = '1' AND ae.classSectionID = '4'  AND asem.studentID = '13';<br>

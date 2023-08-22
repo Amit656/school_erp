@@ -1,0 +1,15 @@
+[17-Jan-2020 17:34:02 Asia/Kolkata] DEBUG: ApplicationDBException at UploadHelpers::SaveStockPurchaseFromExcel(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/excel_reader/class.upload_helpers.php(64): DBConnect_Statement->Execute(1, '2019-04-01')
+#1 /home/addedschools/public_html/lucknowips/admin/excel_reader/upload_purchase_data.php(209): UploadHelpers::SaveStockPurchaseFromExcel(Array)
+#2 {main}
+[17-Jan-2020 17:34:23 Asia/Kolkata] DEBUG: ApplicationDBException at UploadHelpers::SaveStockPurchaseFromExcel(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/excel_reader/class.upload_helpers.php(64): DBConnect_Statement->Execute(2, '2019-04-01')
+#1 /home/addedschools/public_html/lucknowips/admin/excel_reader/upload_purchase_data.php(209): UploadHelpers::SaveStockPurchaseFromExcel(Array)
+#2 {main}
+[17-Jan-2020 17:36:24 Asia/Kolkata] DEBUG: ApplicationDBException at UploadHelpers::SaveStockIssueFromExcel(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/excel_reader/class.upload_helpers.php(175): DBConnect_Statement->Execute('34', '1')
+#1 /home/addedschools/public_html/lucknowips/admin/excel_reader/upload_sales_data.php(216): UploadHelpers::SaveStockIssueFromExcel(Array)
+#2 {main}
+[17-Jan-2020 17:36:37 Asia/Kolkata] DEBUG: ApplicationDBException at UploadHelpers::SaveStockPurchaseFromExcel(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/excel_reader/class.upload_helpers.php(64): DBConnect_Statement->Execute(3, '2019-04-01')
+#1 /home/addedschools/public_html/lucknowips/admin/excel_reader/upload_purchase_data.php(209): UploadHelpers::SaveStockPurchaseFromExcel(Array)
+#2 {main}
+[17-Jan-2020 17:36:57 Asia/Kolkata] DEBUG: ApplicationDBException at UploadHelpers::SaveStockPurchaseFromExcel(). Stack Trace: #0 /home/addedschools/public_html/lucknowips/classes/excel_reader/class.upload_helpers.php(64): DBConnect_Statement->Execute(4, '2019-04-01')
+#1 /home/addedschools/public_html/lucknowips/admin/excel_reader/upload_purchase_data.php(209): UploadHelpers::SaveStockPurchaseFromExcel(Array)
+#2 {main}
